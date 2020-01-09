@@ -13,6 +13,11 @@
 		A43A4DDC23C422DC0091ABCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43A4DDA23C422DC0091ABCF /* Main.storyboard */; };
 		A43A4DDE23C422E10091ABCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43A4DDD23C422E10091ABCF /* Assets.xcassets */; };
 		A43A4DE123C422E10091ABCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43A4DDF23C422E10091ABCF /* LaunchScreen.storyboard */; };
+		A4AC0D7A23C47C8100C68999 /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC0D7923C47C8100C68999 /* OpenViewController.swift */; };
+		A4AC0D7C23C48B9900C68999 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC0D7B23C48B9900C68999 /* HomeViewController.swift */; };
+		A4AC0D7E23C48BCD00C68999 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC0D7D23C48BCD00C68999 /* ScoreViewController.swift */; };
+		A4AC0D8023C48E6900C68999 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC0D7F23C48E6900C68999 /* Card.swift */; };
+		A4AC0D8223C4900A00C68999 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AC0D8123C4900A00C68999 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A43A4DDD23C422E10091ABCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A43A4DE023C422E10091ABCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A43A4DE223C422E10091ABCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AC0D7923C47C8100C68999 /* OpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
+		A4AC0D7B23C48B9900C68999 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4AC0D7D23C48BCD00C68999 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		A4AC0D7F23C48E6900C68999 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A4AC0D8123C4900A00C68999 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				A43A4DD423C422DC0091ABCF /* AppDelegate.swift */,
 				A43A4DD623C422DC0091ABCF /* SceneDelegate.swift */,
 				A43A4DD823C422DC0091ABCF /* ViewController.swift */,
+				A4AC0D7F23C48E6900C68999 /* Card.swift */,
+				A4AC0D8123C4900A00C68999 /* Concentration.swift */,
 				A43A4DDA23C422DC0091ABCF /* Main.storyboard */,
 				A43A4DDD23C422E10091ABCF /* Assets.xcassets */,
 				A43A4DDF23C422E10091ABCF /* LaunchScreen.storyboard */,
 				A43A4DE223C422E10091ABCF /* Info.plist */,
+				A4AC0D7923C47C8100C68999 /* OpenViewController.swift */,
+				A4AC0D7B23C48B9900C68999 /* HomeViewController.swift */,
+				A4AC0D7D23C48BCD00C68999 /* ScoreViewController.swift */,
 			);
 			path = animat;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AC0D7C23C48B9900C68999 /* HomeViewController.swift in Sources */,
+				A4AC0D7A23C47C8100C68999 /* OpenViewController.swift in Sources */,
+				A4AC0D8023C48E6900C68999 /* Card.swift in Sources */,
 				A43A4DD923C422DC0091ABCF /* ViewController.swift in Sources */,
 				A43A4DD523C422DC0091ABCF /* AppDelegate.swift in Sources */,
+				A4AC0D8223C4900A00C68999 /* Concentration.swift in Sources */,
 				A43A4DD723C422DC0091ABCF /* SceneDelegate.swift in Sources */,
+				A4AC0D7E23C48BCD00C68999 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
